@@ -46,12 +46,33 @@ ul {
 
 /*Custom design with class*/
 
-
+	
 .container {
 
     width: 700px;
     margin: 40px auto;
 
+}
+
+@media (max-size 960px) {
+	
+	.container {
+    width: 700px;
+	}
+}
+
+@media (max-size 700px) {
+	
+	.container {
+    width: 500px;
+	}
+}
+
+@media (max-size 500px) {
+	
+	.container {
+    width: 300px;
+	}
 }
 
 .card-white {
